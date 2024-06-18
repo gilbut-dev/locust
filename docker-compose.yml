@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  locust:
+    image: locustio/locust
+    ports:
+        - "8089:8089"
+    restart: unless-stopped
+    volumes:
+      - ./src:/usr/src/app
+    working_dir: /usr/src/app
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    environment:
+      LOCUST_MODE: standalone
