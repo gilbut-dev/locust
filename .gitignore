@@ -1,0 +1,10 @@
+# IDE settings
+.idea/
+
+# Python bytecode cache
+__pycache__/
+
+# Assuming you might have logs or temporary files in other locations as well
+*.log
+*.tmp
+*.pyc

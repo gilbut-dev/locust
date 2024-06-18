@@ -1,6 +1,0 @@
-mysql-connector-python
-python-dotenv
-pymssql==2.1.5
-pandas
-sqlalchemy
-requests
